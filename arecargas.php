@@ -7,7 +7,7 @@ $r_telefono= $_POST["telefono"];
 $r_monto= $_POST["monto"];
 ;
 // ingresar la informacion a la tabla 
-$sql = "INSERT INTO compras (fecha,telefono,monto)
+$sql = "INSERT INTO recargas (fecha,telefono,monto)
 VALUES ('$r_fecha','$r_telefono','$r_telefono')";
 //Enviamos los datos a la tabla
 $enviar=$link->query($sql);
